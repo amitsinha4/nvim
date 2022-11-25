@@ -24,4 +24,5 @@ return require('packer').startup(function(use)
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   use 'neoclide/coc.nvim'
+  use 'numToStr/Comment.nvim'
 end)

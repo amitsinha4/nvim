@@ -23,3 +23,5 @@ nnoremap("<leader>h", "<cmd>wincmd h<CR>")
 -- Move to file
 nnoremap("<leader>l", "<cmd>wincmd l<CR>")
 
+-- Coc Errors
+nnoremap("<leader>ge", "<cmd>CocDiagnostic<CR>")
