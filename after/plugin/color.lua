@@ -1,6 +1,6 @@
 require("tokyonight").setup({
     style="night",
-    transparent=true,
+    transparent=false,
     background="dark",
     styles = {
         comment = { italic = true},

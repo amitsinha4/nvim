@@ -8,6 +8,6 @@ require('gitsigns').setup{
 
     -- Actions
     nnoremap('<leader>gb', gs.toggle_current_line_blame)
-    nnoremap('<leader>gd', gs.diffthis)
+    nnoremap('<leader>gf', gs.diffthis)
   end
 }
