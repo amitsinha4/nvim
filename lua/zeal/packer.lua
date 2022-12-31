@@ -10,9 +10,9 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use {
       'nvim-tree/nvim-tree.lua',
-      -- requires = {
-      --    'nvim-tree/nvim-web-devicons', -- optional, for file icons
-      -- }
+      requires = {
+         'nvim-tree/nvim-web-devicons', -- optional, for file icons
+      }
   }
   use {
       'nvim-telescope/telescope.nvim', tag = '0.1.0',
